@@ -4,7 +4,7 @@ import moment from 'moment';
 
 const conditions = (props) => {
    return (
-       <div className={classes.Wrapper}>
+       <div>
            {props.error && <small className={classes.Small}>Please enter a valid city.</small>}
            {props.loading && <div className={classes.Loader} />}
            {props.responseObj.cod === 200 ?

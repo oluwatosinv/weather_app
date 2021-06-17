@@ -14,9 +14,7 @@ body{
     background-color: #2e373f;
 }
 
-footer{
-  color:black;
-}
+
 
 label {
   font-size: 20px;
@@ -84,14 +82,21 @@ main {
   color: white;
 }
 footer {
+  align-items: center;
   padding: 2px;
   min-height: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   background: #EEEEEE;
   font-size: small;
   text-align: center;
+  color: black;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
 }
 header {
   padding: 25px;
@@ -168,6 +173,10 @@ button[type=submit] {
     color: whitesmoke;
     font-family: 'Recursive', sans-serif;
     font-size: 16px;
+  }
+  footer{
+    min-height: 50px;
+    flex-direction: row;
   }
 }
 

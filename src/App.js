@@ -13,7 +13,7 @@ function App() {
         <Forecast />
       </main>
       <footer>
-        Page created Faboade Oluwatosin
+        Page created by <a className='link' href='#'>Faboade Oluwatosin</a>
       </footer>
 
     </div>
