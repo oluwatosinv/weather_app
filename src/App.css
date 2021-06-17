@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+body{
+  background-image: url("https://images.pexels.com/photos/6992/forest-trees-northwestisbest-exploress.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Recursive', sans-serif;
+  color: white;
+}
+.main{
+    width: 90vw;
+    border-radius: 15px;
+    background-color: #2e373f;
+}
+
+label {
+  font-size: 20px;
+}
+.App-header{
+  color:white ;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.flex1 {
+  display: flex;
+  justify-content: start;
+}
+/* .header{
+    background-color: #92019B;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+    font-family: 'Recursive', sans-serif;
+} */
+.header {
+  background-color: #2b1c2c;
+  color: whitesmoke;
+  /* padding: 10px; */
+  margin: 0;
+  font-size: 28px;
+  border-radius: 15px;
+  font-family: 'Recursive', sans-serif;
+}
+
+.conditions {
+  display: grid;
+  justify-content: center;
+  padding-top: 40px;
+}
+.day{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.App {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+main {
+  flex-grow: 1;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+footer {
+  padding: 2px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #EEEEEE;
+  font-size: small;
+  text-align: center;
+}
+header {
+  padding: 25px;
+  text-align: center;
+}
+
+.sunrise-sunset{
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+}
+
+.sunrise-sunset1{
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+}
+
+.description{
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: #2e373f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* button[type=submit]:hover {
+  background-color: #45a049;
+} */
+
+@media only screen and (max-width: 600px) {
+  .day {
+    padding: 5px;
+  }
+  .temp {
+    padding: 25px;
+    margin: 0;
+    font-size: 18px;
+  }
+  .sunrise-sunset {
+    padding: 25px;
+    margin: 0;
+  }
+  p.day {
+    margin: 2px;
+  }
+  .sunrise-sunset1 {
+    padding: 25px; 
+    margin: 0;
+    padding-left: 35px;
+    padding-right: 10px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  input[type=text], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button[type=submit] {
+    width: 95%;
+    background-color: #2e373f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+}
